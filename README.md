@@ -1,34 +1,126 @@
-A **técnica Pomodoro** é um método de gerenciamento de tempo criado por Francesco Cirillo no final da década de 1980. O nome "Pomodoro" (tomate, em italiano) vem de um cronômetro de cozinha em formato de tomate que ele usava.
+# 🚀 BRDownloads
 
-O funcionamento é simples:
+Uma landing page moderna desenvolvida com **React**, inspirada em plataformas de compartilhamento de arquivos como Mega, Dropbox e MediaFire.
 
-1. Escolha uma tarefa.
-2. Ajuste um cronômetro para **25 minutos**.
-3. Trabalhe com foco total, sem interrupções, até o cronômetro tocar.
-4. Faça uma pausa de **5 minutos**.
-5. Repita esse ciclo. Após completar **4 pomodoros**, faça uma pausa mais longa, de **15 a 30 minutos**.
+O projeto foi criado com foco em uma interface limpa, responsiva e de fácil navegação, servindo como base para um futuro sistema completo de hospedagem e download de arquivos.
 
-### Por que funciona?
+---
 
-* Ajuda a manter a concentração.
-* Torna tarefas grandes mais fáceis de começar.
-* Reduz a procrastinação.
-* Evita fadiga mental ao incluir pausas regulares.
-* Permite acompanhar quanto tempo você realmente gasta em cada atividade.
+## ✨ Funcionalidades
 
-### Exemplo
+* 🎨 Interface moderna
+* 📱 Layout totalmente responsivo
+* ⚛️ Componentes reutilizáveis em React
+* 🔵 Tema em tons de azul
+* 🚀 Estrutura organizada
+* 🎯 Código de fácil manutenção
 
-Se você precisa estudar por 2 horas:
+---
 
-* 🍅 Pomodoro 1: 25 min de estudo
-* ☕ Pausa: 5 min
-* 🍅 Pomodoro 2: 25 min
-* ☕ Pausa: 5 min
-* 🍅 Pomodoro 3: 25 min
-* ☕ Pausa: 5 min
-* 🍅 Pomodoro 4: 25 min
-* 🌴 Pausa longa: 15–30 min
+## 🛠️ Tecnologias
 
-Ao longo dessas 2 horas, você terá estudado cerca de **1h40min** e descansado **20 a 35 minutos**, o que costuma manter a produtividade mais alta do que estudar sem pausas.
+* React
+* Vite
+* CSS3
+* JavaScript (ES6+)
+* React Icons
 
-Se 25 minutos forem muito curtos ou muito longos para você, é comum adaptar o método para ciclos como **50 minutos de trabalho + 10 minutos de pausa** ou **45 minutos + 15 minutos**. O importante é manter períodos de foco intenso alternados com descansos regulares.
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Features/
+│   ├── Stats/
+│   ├── CTA/
+│   ├── About/
+│   ├── Footer/
+│   └── Button/
+│
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 🚀 Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/downloadhub.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd downloadhub
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+O projeto estará disponível em:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Preview
+
+Em breve serão adicionadas imagens da interface.
+
+---
+
+## 📌 Roadmap
+
+* [x] Landing Page
+* [x] Página "Quem Somos"
+* [ ] Página de Login
+* [ ] Página de Cadastro
+* [ ] Dashboard
+* [ ] Sistema de Upload
+* [ ] Sistema de Download
+* [ ] Pesquisa de Arquivos
+* [ ] Painel Administrativo
+* [ ] Tema Claro/Escuro
+* [ ] Integração com API
+* [ ] Backend em Node.js
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas. Se tiver alguma sugestão ou encontrar algum problema, fique à vontade para abrir uma *Issue* ou enviar um *Pull Request*.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Toddykk**.
+
+Se este projeto foi útil para você, considere deixar uma ⭐ no repositório.
