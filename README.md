@@ -1,75 +1,34 @@
-# React + TypeScript + Vite
+A **técnica Pomodoro** é um método de gerenciamento de tempo criado por Francesco Cirillo no final da década de 1980. O nome "Pomodoro" (tomate, em italiano) vem de um cronômetro de cozinha em formato de tomate que ele usava.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O funcionamento é simples:
 
-Currently, two official plugins are available:
+1. Escolha uma tarefa.
+2. Ajuste um cronômetro para **25 minutos**.
+3. Trabalhe com foco total, sem interrupções, até o cronômetro tocar.
+4. Faça uma pausa de **5 minutos**.
+5. Repita esse ciclo. Após completar **4 pomodoros**, faça uma pausa mais longa, de **15 a 30 minutos**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Por que funciona?
 
-## React Compiler
+* Ajuda a manter a concentração.
+* Torna tarefas grandes mais fáceis de começar.
+* Reduz a procrastinação.
+* Evita fadiga mental ao incluir pausas regulares.
+* Permite acompanhar quanto tempo você realmente gasta em cada atividade.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Exemplo
 
-Note: This will impact Vite dev & build performances.
+Se você precisa estudar por 2 horas:
 
-## Expanding the ESLint configuration
+* 🍅 Pomodoro 1: 25 min de estudo
+* ☕ Pausa: 5 min
+* 🍅 Pomodoro 2: 25 min
+* ☕ Pausa: 5 min
+* 🍅 Pomodoro 3: 25 min
+* ☕ Pausa: 5 min
+* 🍅 Pomodoro 4: 25 min
+* 🌴 Pausa longa: 15–30 min
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Ao longo dessas 2 horas, você terá estudado cerca de **1h40min** e descansado **20 a 35 minutos**, o que costuma manter a produtividade mais alta do que estudar sem pausas.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Se 25 minutos forem muito curtos ou muito longos para você, é comum adaptar o método para ciclos como **50 minutos de trabalho + 10 minutos de pausa** ou **45 minutos + 15 minutos**. O importante é manter períodos de foco intenso alternados com descansos regulares.
