@@ -98,7 +98,7 @@ Em breve serão adicionadas imagens da interface.
 * [ ] Página de Cadastro
 * [ ] Dashboard
 * [ ] Sistema de Upload
-* [ ] Sistema de Download
+* [X] Sistema de Download
 * [ ] Pesquisa de Arquivos
 * [ ] Painel Administrativo
 * [ ] Tema Claro/Escuro
