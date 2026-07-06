@@ -1,0 +1,16 @@
+img {
+  width: 280px;
+  height: 150px;
+  transition: 500ms ease all;
+}
+img:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+.ith2 {
+  font-style: italic;
+}
+.notfound-text {
+  align-items: center;
+  text-align: center;
+}

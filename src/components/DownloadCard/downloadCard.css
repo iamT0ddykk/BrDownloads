@@ -1,0 +1,20 @@
+.download-card-title {
+  font-size: larger;
+  font-weight: bold;
+}
+.download-card-container p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #0b1220;
+  margin-bottom: 10px;
+}
+.download-card-container {
+  background-color: #0b1220a4;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.donwload-container {
+  max-width: 600px;
+}
