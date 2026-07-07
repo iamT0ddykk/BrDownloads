@@ -6,24 +6,30 @@ O projeto foi criado com foco em uma interface limpa, responsiva e de fácil nav
 
 ---
 
+## 🎥 Demonstração
+
+![Demo](./public/screenshote%20brd1.png)
+![Demo](./public/screenshote%20brd2.png)
+![Demo](./public/screenshote%20brd3.png)
+
 ## ✨ Funcionalidades
 
-* 🎨 Interface moderna
-* 📱 Layout totalmente responsivo
-* ⚛️ Componentes reutilizáveis em React
-* 🔵 Tema em tons de azul
-* 🚀 Estrutura organizada
-* 🎯 Código de fácil manutenção
+- 🎨 Interface moderna
+- 📱 Layout totalmente responsivo
+- ⚛️ Componentes reutilizáveis em React
+- 🔵 Tema em tons de azul
+- 🚀 Estrutura organizada
+- 🎯 Código de fácil manutenção
 
 ---
 
 ## 🛠️ Tecnologias
 
-* React
-* Vite
-* CSS3
-* JavaScript (ES6+)
-* React Icons
+- React
+- Vite
+- CSS3
+- JavaScript (ES6+)
+- React Icons
 
 ---
 
@@ -92,24 +98,24 @@ Em breve serão adicionadas imagens da interface.
 
 ## 📌 Roadmap
 
-* [x] Landing Page
-* [x] Página "Quem Somos"
-* [ ] Página de Login
-* [ ] Página de Cadastro
-* [ ] Dashboard
-* [ ] Sistema de Upload
-* [X] Sistema de Download
-* [ ] Pesquisa de Arquivos
-* [ ] Painel Administrativo
-* [ ] Tema Claro/Escuro
-* [ ] Integração com API
-* [ ] Backend em Node.js
+- [x] Landing Page
+- [x] Página "Quem Somos"
+- [ ] Página de Login
+- [ ] Página de Cadastro
+- [ ] Dashboard
+- [ ] Sistema de Upload
+- [x] Sistema de Download
+- [ ] Pesquisa de Arquivos
+- [ ] Painel Administrativo
+- [ ] Tema Claro/Escuro
+- [ ] Integração com API
+- [ ] Backend em Node.js
 
 ---
 
 ## 🤝 Contribuições
 
-Contribuições são bem-vindas. Se tiver alguma sugestão ou encontrar algum problema, fique à vontade para abrir uma *Issue* ou enviar um *Pull Request*.
+Contribuições são bem-vindas. Se tiver alguma sugestão ou encontrar algum problema, fique à vontade para abrir uma _Issue_ ou enviar um _Pull Request_.
 
 ---
 
