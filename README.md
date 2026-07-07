@@ -1,75 +1,126 @@
-# React + TypeScript + Vite
+# 🚀 BRDownloads
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma landing page moderna desenvolvida com **React**, inspirada em plataformas de compartilhamento de arquivos como Mega, Dropbox e MediaFire.
 
-Currently, two official plugins are available:
+O projeto foi criado com foco em uma interface limpa, responsiva e de fácil navegação, servindo como base para um futuro sistema completo de hospedagem e download de arquivos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+* 🎨 Interface moderna
+* 📱 Layout totalmente responsivo
+* ⚛️ Componentes reutilizáveis em React
+* 🔵 Tema em tons de azul
+* 🚀 Estrutura organizada
+* 🎯 Código de fácil manutenção
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* React
+* Vite
+* CSS3
+* JavaScript (ES6+)
+* React Icons
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📂 Estrutura do Projeto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```text
+src/
+│
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Features/
+│   ├── Stats/
+│   ├── CTA/
+│   ├── About/
+│   ├── Footer/
+│   └── Button/
+│
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Como executar
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/downloadhub.git
 ```
+
+Acesse a pasta do projeto:
+
+```bash
+cd downloadhub
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+O projeto estará disponível em:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📸 Preview
+
+Em breve serão adicionadas imagens da interface.
+
+---
+
+## 📌 Roadmap
+
+* [x] Landing Page
+* [x] Página "Quem Somos"
+* [ ] Página de Login
+* [ ] Página de Cadastro
+* [ ] Dashboard
+* [ ] Sistema de Upload
+* [X] Sistema de Download
+* [ ] Pesquisa de Arquivos
+* [ ] Painel Administrativo
+* [ ] Tema Claro/Escuro
+* [ ] Integração com API
+* [ ] Backend em Node.js
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas. Se tiver alguma sugestão ou encontrar algum problema, fique à vontade para abrir uma *Issue* ou enviar um *Pull Request*.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Toddykk**.
+
+Se este projeto foi útil para você, considere deixar uma ⭐ no repositório.
