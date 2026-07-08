@@ -14,7 +14,7 @@ function App() {
           <Route path="/downloads" element={<Downloads></Downloads>} />
           <Route path="/about" element={<About></About>} />
 
-          <Route path="/*" element={<NotFound></NotFound>} />
+          <Route path="*" element={<NotFound></NotFound>} />
         </Routes>
       </BrowserRouter>
     </>
