@@ -7,7 +7,7 @@ type butaoProps = {
   children?: string;
   icon: React.ReactNode;
   onClick: MouseEventHandler;
-  link?: string;
+  link: string;
 };
 
 function Butao(children: butaoProps) {
