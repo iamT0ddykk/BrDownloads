@@ -61,7 +61,7 @@ src/
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/downloadhub.git
+git clone https://github.com/iamT0ddykk/downloadhub.git
 ```
 
 Acesse a pasta do projeto:
